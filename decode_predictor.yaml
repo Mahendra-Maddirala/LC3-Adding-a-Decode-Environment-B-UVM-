@@ -1,0 +1,10 @@
+uvmf:
+  util_components:
+    "decode_predictor" :  
+      type: "predictor"
+      analysis_exports :
+        - name: "analysis_export"
+          type: "decode_in_transaction"
+      analysis_ports : 
+        - name: "analysis_port"
+          type: "decode_out_transaction"
